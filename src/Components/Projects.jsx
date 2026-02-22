@@ -13,7 +13,7 @@ const Projects = () => {
               Interactive Learning Platform
             </div>
             <div className="project-image">
-              <img src="/qe_home.png" alt="" width={"80%"} />
+              <img src={`${import.meta.env.BASE_URL}qe_home.png`} alt="" width={"80%"} />
             </div>
           </div>
           <div className="project-content">
@@ -47,7 +47,7 @@ const Projects = () => {
             <h2>It’s Mani Blog</h2>
             <div class="project-subtitle">Tech Thoughts & Experiments</div>
             <div className="project-image">
-              <img src="/mani_blog_white.png" alt="" width={"80%"} />
+              <img src={`${import.meta.env.BASE_URL}mani_blog_white.png`} alt="" width={"80%"} />
             </div>
           </div>
           <div class="project-content">
@@ -80,7 +80,7 @@ const Projects = () => {
             <h2>Manim With Mani</h2>
             <div class="project-subtitle">Freelance Mathematical Animation & Education</div>
             <div className="project-image">
-              <img src="/mwm.png" alt="" width={"80%"} />
+              <img src={`${import.meta.env.BASE_URL}mwm.png`} alt="" width={"80%"} />
             </div>
           </div>
           <div class="project-content">
