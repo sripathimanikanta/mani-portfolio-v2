@@ -1,0 +1,55 @@
+:root {
+  --nano-yellow: #fde047;
+  /* --bg-deep: rgba(56, 189, 248, 0.1); */
+  --card-glass: rgba(56, 189, 248, 0.1);
+  --text-white: #ffffff;
+  --text-muted: #a1a1aa;
+  --border: rgba(255, 255, 255, 0.1);
+}
+
+.portfolio-container {
+  /* background-color: var(--bg-deep); */
+  /* background-image: radial-gradient(circle at 50% -20%, #3e3e00 0%, transparent 50%); */
+  color: var(--text-white);
+  padding: 60px 20px;
+  font-family: 'Inter', sans-serif;
+}
+
+.section-title {
+  text-align: center;
+  font-size: 2.5rem;
+  margin: 40px 0;
+}
+
+.accent { color: var(--nano-yellow); }
+
+/* Grid for Education & Skills */
+.grid-layout {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.glass-card {
+  background: var(--card-glass);
+  border: 1px solid var(--border);
+  border-radius: 16px;
+  padding: 24px;
+  transition: 0.3s ease;
+}
+
+.glass-card:hover {
+  border-color: var(--nano-yellow);
+  transform: translateY(-5px);
+}
+
+.badge {
+  background: rgba(253, 224, 71, 0.1);
+  color: var(--nano-yellow);
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-weight: bold;
+  font-size: 0.8rem;
+}

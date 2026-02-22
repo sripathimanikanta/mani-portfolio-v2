@@ -1,0 +1,93 @@
+.portfolio-footer {
+  padding: 60px 20px 30px 20px;
+  /* background: rgba(5, 5, 5, 0.8); */
+  border-top: 1px solid var(--border);
+  margin-top: 100px;
+}
+
+.footer-container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 40px;
+}
+
+.footer-brand {
+  text-align: center;
+}
+
+.footer-brand h3 {
+  font-size: 1.8rem;
+  margin: 0 0 10px 0;
+  letter-spacing: -1px;
+}
+
+.footer-brand p {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.footer-socials {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.footer-socials a {
+  text-decoration: none;
+  color: var(--text-white);
+  font-size: 0.85rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  transition: 0.3s ease;
+  padding: 5px 0;
+  position: relative;
+}
+
+.footer-socials a:hover {
+  color: var(--nano-yellow);
+}
+
+/* Hover underline effect */
+.footer-socials a::after {
+  content: '';
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: var(--nano-yellow);
+  transition: 0.3s ease;
+}
+
+.footer-socials a:hover::after {
+  width: 100%;
+}
+
+.footer-socials a img:hover{
+  fill: var(--nano-yellow);
+}
+
+.linkedin{
+  color: var(--nano-yellow);
+  fill: var(--nano-yellow);
+}
+
+.footer-bottom {
+  width: 100%;
+  text-align: center;
+  color: var(--text-muted);
+  font-size: 0.8rem;
+}
+
+.footer-line {
+  height: 1px;
+  width: 100%;
+  max-width: 200px;
+  background: linear-gradient(90deg, transparent, var(--border), transparent);
+  margin: 20px auto 0 auto;
+}
