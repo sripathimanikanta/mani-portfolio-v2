@@ -13,6 +13,10 @@ const Contact = () => {
           for new opportunities.
         </p>
 
+        <p className="em">
+          Email-id: manikantasripathi576@gmail.com
+        </p>
+
         {/*         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px;">
             <div style="padding: 15px; border: 1px dashed rgba(253, 224, 71, 0.3); border-radius: 10px;">
                 <div style="color: var(--nano-yellow); font-size: 1.5rem; margin-bottom: 5px;">🎥</div>

@@ -38,12 +38,6 @@
 
 .footer-socials a {
   text-decoration: none;
-  color: var(--text-white);
-  font-size: 0.85rem;
-  font-weight: 600;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  transition: 0.3s ease;
   padding: 5px 0;
   position: relative;
 }
@@ -90,4 +84,28 @@
   max-width: 200px;
   background: linear-gradient(90deg, transparent, var(--border), transparent);
   margin: 20px auto 0 auto;
+}
+
+#svg-icon-lkd, #svg-icon-yt, #svg-icon-inst, #svg-icon-x {
+  width: 50px;
+  filter: grayscale(100%) opacity(0.6);
+  transition: filter 0.3s ease;
+}
+
+/* The hover state (Target: Nano-Banana Yellow) */
+#svg-icon-lkd:hover {
+  filter: invert(22%) sepia(77%) saturate(5716%) hue-rotate(198deg) brightness(94%) contrast(105%);
+  opacity: 1;
+}
+#svg-icon-yt:hover{
+  filter: invert(15%) sepia(88%) saturate(7487%) hue-rotate(344deg) brightness(101%) contrast(107%);
+  opacity: 1;
+}
+#svg-icon-x:hover{
+  filter: invert(49%) sepia(48%) saturate(3496%) hue-rotate(182deg) brightness(105%) contrast(94%);
+  opacity: 1;
+}
+#svg-icon-inst:hover{
+  filter: invert(15%) sepia(63%) saturate(6057%) hue-rotate(313deg) brightness(108%) contrast(110%);
+  opacity: 1;
 }
