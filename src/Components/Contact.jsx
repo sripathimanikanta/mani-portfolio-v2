@@ -16,6 +16,12 @@ const Contact = () => {
         <p className="em">
           Email-id: manikantasripathi576@gmail.com
         </p>
+        <p className="num">
+          Mobile-No. / Whatsapp-number: 9381768242
+        </p>
+        <p className="dis">
+          Discord ID: manikdasrip 
+        </p>
 
         {/*         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 20px; margin-bottom: 40px;">
             <div style="padding: 15px; border: 1px dashed rgba(253, 224, 71, 0.3); border-radius: 10px;">
