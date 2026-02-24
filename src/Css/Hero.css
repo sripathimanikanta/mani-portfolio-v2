@@ -23,6 +23,12 @@
   line-height: 1.1;
 }
 
+.hero-sub {
+  font-size: 1.4rem;
+  color: var(--nano-yellow);
+  margin-bottom: 30px;
+}
+
 .hero-subtext {
   font-size: 1.2rem;
   color: var(--text-muted);

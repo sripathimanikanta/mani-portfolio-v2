@@ -9,8 +9,11 @@ const Hero = () => {
           <h1>
             Hi, I'm <span className="accent">Manikanta Sripathi</span>
           </h1>
+          <p className="hero-sub">
+           Be Curious and Create Crazy Stuff... 
+          </p>
           <p className="hero-subtext">
-            Science Student • Manim Animator • Web Developer
+            Science Educator • Manim Animator • Web Developer
           </p>
           
           <div className="quote-box">
