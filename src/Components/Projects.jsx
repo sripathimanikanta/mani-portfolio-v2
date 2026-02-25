@@ -109,7 +109,7 @@ const Projects = () => {
               </li>
             </ul>
             <a
-              href="https://sripathimanikanta.github.io/itsmaniblog/"
+              href="https://sripathimanikanta.github.io/ManimWithMani/"
               class="btn-link"
               target="_blank"
             >
