@@ -53,3 +53,10 @@
   font-weight: bold;
   font-size: 0.8rem;
 }
+
+@media (max-width: 768px) {
+  .grid-layout{
+    display: flex;
+    flex-direction: column;
+  }
+}

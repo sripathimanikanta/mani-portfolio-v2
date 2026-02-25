@@ -1,9 +1,11 @@
+import "../Css/Skills.css"
+
 const Skills = () => {
   const htmldirectPath = "/html5-brands-solid.svg";
   const cssdirectPath = "/css3-alt-brands-solid.svg";
   return (
     <div id="technical">
-      <div class="container">
+      <div className="tech-container">
         <h1>Technical Proficiency</h1>
 
         <div class="skills-grid">

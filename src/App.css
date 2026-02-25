@@ -215,3 +215,18 @@ h1 {
 .contact-para{
   color: var(--text-muted); font-size: 1.1rem; margin-bottom: 30px;
 }
+/* Mobile Responsive Adjustments */
+@media (max-width: 768px) {
+  :root {
+    --section-padding: 40px 15px;
+  }
+
+  .section-title {
+    font-size: 1.8rem; /* Smaller titles so they don't wrap weirdly */
+    margin-bottom: 30px;
+  }
+
+  body {
+    padding: 20px 10px;
+  }
+}
