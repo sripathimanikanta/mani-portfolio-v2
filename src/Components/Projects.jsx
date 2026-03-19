@@ -117,6 +117,31 @@ const Projects = () => {
             </a>
           </div>
         </div>
+
+        <div class="project-card">
+          <div class="project-header">
+            <h2>NvoicZ</h2>
+            <div class="project-subtitle">Money Manager App</div>
+            <div className="project-image">
+              <img src={`${import.meta.env.BASE_URL}nvoicz.png`} alt="" width={"80%"} />
+            </div>
+          </div>
+          <div class="project-content">
+			<ul class="features-list">
+			    <li><strong>Financial Cockpit:</strong> Designed as an all-in-one dashboard to provide a high-level overview of Net Worth, Assets, and Liquidity with zero friction.</li>
+			    <li><strong>Smart Distribution:</strong> Utilizing real-time analytics and custom charting to visualize financial "buckets" like Savings, Investments, and Expenses.</li>
+			    <li><strong>Local-First Architecture:</strong> Built with a focus on speed and privacy, leveraging high-performance local storage for lightning-fast data retrieval and offline access.</li>
+			    <li><strong>Technology Stack:</strong> Developed using React Native and Expo for a seamless mobile experience, styled with a modern, high-contrast Dark Mode UI for clarity.</li>
+</ul>
+            <a
+              href="https://sripathimanikanta.github.io/NvoicZWebsite/"
+              class="btn-link"
+              target="_blank"
+            >
+              See My NvoicZ →
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
